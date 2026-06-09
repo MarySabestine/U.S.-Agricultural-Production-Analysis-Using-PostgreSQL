@@ -2,6 +2,17 @@
 Data Analytics Project | SQL | Data Cleaning | Exploratory Data Analysis
 ## Description
 Analyzed agricultural production data from the United States Department of Agriculture (USDA) to uncover production trends and regional patterns across major agricultural commodities, including cheese, honey, milk, coffee, eggs, and yogurt.
+## Dataset: 
+The dataset was sourced from the United States Department of Agriculture (USDA) and contains state-level agricultural production data for several key commodities, including cheese, honey, milk, coffee, eggs, and yogurt. The data is organized across multiple relational tables and includes geographic identifiers, commodity categories, production values, and related attributes. The dataset provides a comprehensive view of agricultural output across the United States, enabling the analysis of regional production trends, commodity performance, and industry patterns through SQL-based data exploration and reporting.
+## Columns and Descriptions
+Each table had these columns
+- `year`: The year of production (e.g., 2021).
+- `period`: the specific month (e.g., April).
+- `geo_level`: A unique identifier for each product (ranging from 1 to 100).
+- `state_ansi`: The number of units of the product sold on that date, with a notable increase post-intervention.
+- `commodity_id`:  A unique identifier for each diary product (ranging from 1 to 10)The price per unit of the product sold, ranging between 10 and 100.
+- `domain`: The total revenue generated from the sale of the product on that date (calculated as quantity * unit_price).
+- `value`: A boolean indicating the presence of a marketing campaign (True post-intervention, False pre-intervention).
 ## Tools & Technologies: 
 PostgreSQL, SQL, Data Cleaning, Data Transformation, Relational Databases, Exploratory Data Analysis (EDA)
 ## Key Achievements:
